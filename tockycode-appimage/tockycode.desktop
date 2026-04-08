@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=TockyCode
+Comment=Professional AI Code Generator - 100% Free, Local
+Exec=AppRun %U
+Icon=tockycode
+Terminal=true
+Type=Application
+Categories=Development;Utility;AI;
+Keywords=AI;code;generator;programming;developer;
+StartupWMClass=TockyCode
+MimeType=text/x-python;text/x-java;text/x-c++src;text/javascript;application/x-typescript;

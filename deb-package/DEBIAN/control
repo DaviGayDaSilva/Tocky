@@ -1,0 +1,19 @@
+Package: tockycode
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.8), python3-pip, python3-venv
+Maintainer: TockyCode Team <info@tockycode.com>
+Description: Professional AI Code Generator - 100% Free, Local
+ TockyCode is a professional AI-powered code generation tool that runs
+ entirely on your local machine. No internet connection required.
+ .
+ Features:
+  * Generate professional code in multiple languages
+  * Local AI models (offline capable)
+  * CLI and GUI interfaces
+  * Analyze code quality
+  * Interactive code generation mode
+ .
+ Supported languages: Python, JavaScript, Java, C++, Go, Rust, TypeScript, and more.

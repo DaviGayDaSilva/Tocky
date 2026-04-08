@@ -1,0 +1,30 @@
+#!/bin/sh
+# Post-installation script for TockyCode
+
+echo "Setting up TockyCode..."
+
+# Make the CLI executable
+chmod +x /usr/bin/tockycode
+
+# Create config directory
+mkdir -p /etc/tockycode
+mkdir -p ~/.tockycode
+
+# Create default config
+if [ ! -f ~/.tockycode/config.json ]; then
+    echo '{"model": "microsoft/CodeGPT-small-py", "cpu_mode": false}' > ~/.tockycode/config.json
+fi
+
+# Print welcome message
+echo ""
+echo "============================================"
+echo "  TockyCode v1.0.0 - Installed Successfully"
+echo "============================================"
+echo ""
+echo "Usage:"
+echo "  tockycode generate -p \"create a function\""
+echo "  tockycode analyze -f main.py"
+echo "  tockycode --version"
+echo ""
+
+exit 0

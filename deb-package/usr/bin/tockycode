@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+TockyCode - Professional AI Code Generator CLI Launcher
+100% Free, Local AI-powered code generation
+"""
+
+import sys
+import os
+
+# Add the package directory to path
+sys.path.insert(0, '/usr/lib/python3/dist-packages')
+
+# Import and run main from tockycode module
+from tockycode import main
+
+if __name__ == "__main__":
+    sys.exit(main())
